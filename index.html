@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Catch The Gifts</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<body>
+<ul class="lightrope">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<canvas id="gameArea" style="    
+border: 1px solid #eee6e6;">
+</canvas>
+    <body>
+    
+    <div id="overlay" onclick="off()">
+      <div id="text"><center>
+        <center>
+          FOLOSEȘTE SĂGEȚILE PENTRU A TE DEPLASA STÂNGA, DREAPTA ȘI COLECTEAZĂ CADOURILE 
+        </center>
+        <br>SUCCES!</br>
+      </center></div>
+    </div>
+    
+    <div class="buton">
+      <button onclick="on()">HELP</button>
+    </div>
+    
+    <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+    
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+    </script>
+</body>
+</html>
